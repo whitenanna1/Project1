@@ -1,0 +1,27 @@
+body{
+    background-color: aliceblue; 
+    color: rgb(8, 8, 51);
+}
+.jumbotron{
+    background-color: rgb(168, 168, 236);
+
+    margin: 20px;
+    text-align: center;
+}
+.form-control{
+    color: rgb(8, 8, 51);
+}
+#button-addon2{
+    background-color: rgb(168, 168, 236);
+    color: rgb(8, 8, 51);
+}
+.input-group-text{
+    background-color: rgb(168, 168, 236);
+    color: rgb(8, 8, 51); 
+}
+.card{
+    background-color: rgb(168, 168, 236);
+    color: rgb(8, 8, 51); 
+    margin-left: 15%;
+    margin-right: 15%;
+}
