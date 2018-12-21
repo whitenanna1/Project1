@@ -11,7 +11,7 @@
 <body>
     <div class="jumbotron jumbotron">
         <div class="container">
-            <h1 class="display-4">Time to Hit the Slopes!</h1>
+            <h1 class="display-3">Time to Hit the Slopes!</h1>
             <p class="lead">"Best Ski Resorts to Visit This Week"</p>
         </div>
     </div>
@@ -30,8 +30,9 @@
                 <div class="input-group mb-3">
                     <select class="custom-select" id="inputGroupSelect02">
                         <option selected>Choose...</option>
-                        <option value="1">Distance</option>
-                        <option value="2">Snowfall</option>
+                        <option value="1">Snow Depth: </option>
+                        <option value="2">Miles Away: </option>
+                        <option value="3">Duration: </option>
                     </select>
                     <div class="input-group-append">
                         <label class="input-group-text" for="inputGroupSelect02">Sort by</label>
@@ -45,15 +46,16 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4" id="resortName">
-                        Resort Name
+                        <h3 class="display-4" id="resorts">Resort Name</h3>
                     </div>
                     <div class="col-sm-4">
 
                     </div>
                     <div class="col-sm-4">
                         <div class="container">
-                            <div class="row" id="distance">Distance:</div>
-                            <div class="row" id="snowfall">Snowfall:</div>
+                            <div class="row" id="snowfall">Snow Depth: </div>
+                            <div class="row" id="distance">Miles Away: </div>
+                            <div class="row" id="distance">Duration: </div>
                         </div>
                     </div>
                 </div>
