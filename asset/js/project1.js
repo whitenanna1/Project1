@@ -21,7 +21,21 @@ $( document ).ready(function() {
             method: "GET"
           }).then(function(response) {
             console.log(response);
+         //var weather = response.results;
+         var resortLat= response[0].station_information.location.lat;
+         var resortLong= response[0].station_information.location.lng;
+           
+        
+            $.ajax({
+                url: "https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins="+userZip+"&destinations="+resortLat+","+resortLong+"&key=AIzaSyCtACpMRAILtspcD0Xv5L3SADKump8sbJk",
+                method: "GET"
+              }).then(function(response) {
+                console.log(response);
+              
+        
           });    
+        });
+
 
         });
     
