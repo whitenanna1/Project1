@@ -24,8 +24,9 @@ body{
     color: rgb(8, 8, 51); 
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom: 10px;
 }
 
-#resorts{
+#resorts-0, #resorts-1, #resorts-2, #resorts-3, #resorts-4{
     font-size: 30px;
 }
