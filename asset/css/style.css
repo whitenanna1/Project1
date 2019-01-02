@@ -30,3 +30,8 @@ body{
 #resorts-0, #resorts-1, #resorts-2, #resorts-3, #resorts-4{
     font-size: 30px;
 }
+
+#zipValidate{
+    color: red;
+    margin-left: 20px;
+}
