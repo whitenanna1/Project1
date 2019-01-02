@@ -24,8 +24,14 @@ body{
     color: rgb(8, 8, 51); 
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom: 10px;
 }
 
 #resorts{
     font-size: 30px;
+}
+
+#zipValidate{
+    color: red;
+    margin-left: 20px;
 }
